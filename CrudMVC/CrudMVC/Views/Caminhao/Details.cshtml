@@ -1,0 +1,25 @@
+﻿@model CaminhaoModel
+@{
+    ViewData["Title"] = "Detalhes";
+}
+  
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <h4>Nome</h4>
+            <p>@(Model.Nome)</p>
+        </div>
+        <div class="col-4">
+            <h4>Descrição</h4>
+            <p>@(Model.Descricao)</p>
+        </div>
+        <div class="col-4">
+            <h4>Data de criação</h4>
+            <p>@(Model.DataDeCriacao)</p>
+        </div>
+
+    </div>
+
+</div>
+    <a class="btn btn-secondary btn-block" asp-controller="Caminhao" asp-action="Index" role="button">Voltar</a>
+

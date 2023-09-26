@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CrudMVC",
+    "\\CrudMVC\\Models",
+    "\\CrudMVC\\Properties",
+    "\\CrudMVC\\Repositorio",
+    "\\CrudMVC\\Views",
+    "\\CrudMVC\\Views\\Caminhao"
+  ],
+  "SelectedNode": "\\CrudMVC\\Models\\CaminhaoModel.cs",
+  "PreviewInSolutionExplorer": false
+}
